@@ -10,38 +10,45 @@
 body{
 font-family: Arial, Helvetica, sans-serif;
 margin:0;
-background:#0f172a;
-color:white;
+background:#0a0a0a;
+color:#e5e5e5;
 }
 
 header{
-background:#020617;
+background:#000000;
 padding:60px 20px;
 text-align:center;
+border-bottom:1px solid #333;
 }
 
 header h1{
 font-size:42px;
 margin-bottom:10px;
+color:#ffffff;
 }
 
 header p{
 font-size:20px;
-color:#94a3b8;
+color:#b3b3b3;
 }
 
 nav{
-background:#020617;
+background:#000000;
 display:flex;
 justify-content:center;
 gap:30px;
 padding:15px;
+border-bottom:1px solid #333;
 }
 
 nav a{
-color:white;
+color:#e5e5e5;
 text-decoration:none;
 font-weight:bold;
+}
+
+nav a:hover{
+color:#ffffff;
 }
 
 section{
@@ -52,7 +59,9 @@ margin:auto;
 
 h2{
 margin-bottom:30px;
-color:#38bdf8;
+color:#ffffff;
+border-bottom:1px solid #333;
+padding-bottom:10px;
 }
 
 .skills{
@@ -62,9 +71,10 @@ gap:15px;
 }
 
 .skill{
-background:#1e293b;
+background:#1a1a1a;
 padding:12px;
 border-radius:6px;
+border:1px solid #333;
 }
 
 .projects{
@@ -74,24 +84,41 @@ gap:20px;
 }
 
 .project{
-background:#1e293b;
+background:#1a1a1a;
 padding:20px;
 border-radius:8px;
+border:1px solid #333;
+}
+
+.project a{
+color:#d1d5db;
+text-decoration:none;
+}
+
+.project a:hover{
+text-decoration:underline;
 }
 
 footer{
-background:#020617;
+background:#000000;
 text-align:center;
 padding:30px;
-color:#94a3b8;
+color:#888;
+border-top:1px solid #333;
 }
 
 button{
-background:#38bdf8;
+background:#e5e5e5;
+color:#000;
 border:none;
 padding:10px 20px;
 border-radius:6px;
 cursor:pointer;
+font-weight:bold;
+}
+
+button:hover{
+background:#cccccc;
 }
 
 </style>
@@ -103,7 +130,10 @@ cursor:pointer;
 <header>
 <h1>Andrea Ramirez</h1>
 <p>Senior .NET Backend Developer</p>
-<p>ASP.NET Core • Azure • SQL Server • Microservices • Clean Architecture</p>
+
+<p>
+WEB API • C# • OOP • SQL • MVC • LINQ • EF • JSON • SOLID • Swagger • Postman • AWS DynamoDB • CodeBuild Pipeline • Bitbucket • Git • Azure Repos • Azure Pipelines • DataDog • TDD
+</p>
 
 <br>
 
@@ -134,7 +164,7 @@ Strong experience designing REST APIs, implementing Clean Architecture, applying
 </p>
 
 <p>
-I have worked with international teams delivering enterprise systems using Azure cloud services, CI/CD pipelines and Agile Scrum methodologies.
+Experience delivering enterprise systems using cloud platforms, CI/CD pipelines and Agile Scrum methodologies.
 </p>
 
 </section>
@@ -149,20 +179,22 @@ I have worked with international teams delivering enterprise systems using Azure
 <div class="skill">C#</div>
 <div class="skill">.NET Core</div>
 <div class="skill">Web API</div>
+<div class="skill">OOP</div>
 <div class="skill">Entity Framework</div>
 <div class="skill">SQL Server</div>
 <div class="skill">LINQ</div>
 <div class="skill">MVC</div>
-<div class="skill">Azure</div>
-<div class="skill">Microservices</div>
-<div class="skill">CQRS</div>
-<div class="skill">Design Patterns</div>
+<div class="skill">JSON</div>
 <div class="skill">SOLID</div>
-<div class="skill">Angular</div>
-<div class="skill">Git / GitHub</div>
-<div class="skill">CI/CD</div>
 <div class="skill">Swagger</div>
 <div class="skill">Postman</div>
+<div class="skill">AWS DynamoDB</div>
+<div class="skill">Bitbucket / Git</div>
+<div class="skill">Azure Repos</div>
+<div class="skill">Azure Pipelines</div>
+<div class="skill">CodeBuild Pipeline</div>
+<div class="skill">DataDog</div>
+<div class="skill">TDD</div>
 
 </div>
 
@@ -251,7 +283,7 @@ linkedin.com/in/andrea-r-31967494
 </a>
 </p>
 
-<p>Location: Colombia</p>
+<p>Location: Medellín, Antioquia, Colombia</p>
 
 </section>
 
