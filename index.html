@@ -1,49 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrea Ramirez | .NET Backend Developer</title>
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+background:#020617;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+color:#94a3b8;
+}
+
+nav{
+background:#020617;
+display:flex;
+justify-content:center;
+gap:30px;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+h2{
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+.skill{
+background:#1e293b;
+padding:12px;
+border-radius:6px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.project{
+background:#1e293b;
+padding:20px;
+border-radius:8px;
+}
+
+footer{
+background:#020617;
+text-align:center;
+padding:30px;
+color:#94a3b8;
+}
+
+button{
+background:#38bdf8;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+</style>
+
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I am a backend developer with a passion for creating efficient and scalable web applications.</p>
-        </section>
-        <section id="projects">
-            <h2>Featured Projects</h2>
-            <div class="project">
-                <h3>Project 1: API Development</h3>
-                <p>This project involved developing a RESTful API for an e-commerce platform. The API allows for inventory management, user authentication, and order processing.</p>
-            </div>
-            <div class="project">
-                <h3>Project 2: Data Processing Pipeline</h3>
-                <p>Designed a data processing pipeline that extracts, transforms, and loads (ETL) data from various sources into a data warehouse for analytics.</p>
-            </div>
-            <div class="project">
-                <h3>Project 3: Microservices Architecture</h3>
-                <p>Implemented a microservices architecture for a social media application, improving scalability and maintainability of the codebase.</p>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to reach out via <a href="mailto:email@example.com">email</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 My Portfolio</p>
-    </footer>
+
+<header>
+<h1>Andrea Ramirez</h1>
+<p>Senior .NET Backend Developer</p>
+<p>ASP.NET Core • Azure • SQL Server • Microservices • Clean Architecture</p>
+
+<br>
+
+<a href="mailto:adramirez20@gmail.com">
+<button>Contact Me</button>
+</a>
+
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Software Engineer specialized in backend development with more than 5 years of experience building scalable solutions using .NET and C#.
+</p>
+
+<p>
+Strong experience designing REST APIs, implementing Clean Architecture, applying SOLID principles and working with SQL Server databases.
+</p>
+
+<p>
+I have worked with international teams delivering enterprise systems using Azure cloud services, CI/CD pipelines and Agile Scrum methodologies.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">ASP.NET Core</div>
+<div class="skill">C#</div>
+<div class="skill">.NET Core</div>
+<div class="skill">Web API</div>
+<div class="skill">Entity Framework</div>
+<div class="skill">SQL Server</div>
+<div class="skill">LINQ</div>
+<div class="skill">MVC</div>
+<div class="skill">Azure</div>
+<div class="skill">Microservices</div>
+<div class="skill">CQRS</div>
+<div class="skill">Design Patterns</div>
+<div class="skill">SOLID</div>
+<div class="skill">Angular</div>
+<div class="skill">Git / GitHub</div>
+<div class="skill">CI/CD</div>
+<div class="skill">Swagger</div>
+<div class="skill">Postman</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2>Professional Experience</h2>
+
+<h3>Making Sense</h3>
+<p>
+Software Engineer building cloud-native backend services with .NET Core and Azure.
+Developed scalable REST APIs and contributed to CI/CD pipelines and system reliability.
+</p>
+
+<h3>Kin + Carta – Client Corteva</h3>
+<p>
+Backend and frontend development using .NET Core and Angular. Participated in system design,
+technical discussions and integrations with external systems.
+</p>
+
+<h3>Globant</h3>
+<p>
+Development and maintenance of insurance systems using .NET Core, SQL Server and microservices
+architecture following Agile Scrum methodology.
+</p>
+
+<h3>Thales</h3>
+<p>
+Development of biometric systems for citizenship ID and passport production integrating
+devices and secure information transport.
+</p>
+
+<h3>PSL – Deloitte Client</h3>
+<p>
+Backend development for Web API applications enabling digital services and subscriptions
+using ASP.NET C#, SQL Server and MVC architecture.
+</p>
+
+</section>
+
+<section id="projects">
+
+<h2>Featured Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>FalckTestDev</h3>
+<p>.NET backend technical test project demonstrating API architecture and best practices.</p>
+<a href="https://github.com/adramirez20/FalckTestDev" target="_blank">View Repository</a>
+</div>
+
+<div class="project">
+<h3>FalckManagers</h3>
+<p>Backend project implementing .NET architecture patterns and data management.</p>
+<a href="https://github.com/adramirez20/FalckManagers" target="_blank">View Repository</a>
+</div>
+
+<div class="project">
+<h3>Weather API Integration</h3>
+<p>REST integration consuming external weather APIs and processing user data.</p>
+<a href="https://github.com/adramirez20/WeatherUserIntegration" target="_blank">View Repository</a>
+</div>
+
+<div class="project">
+<h3>Weather API Betsson</h3>
+<p>Integration project connecting weather APIs with backend services.</p>
+<a href="https://github.com/adramirez20/WeatherAPI_BETSSOn" target="_blank">View Repository</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: adramirez20@gmail.com</p>
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/andrea-r-31967494/" target="_blank">
+linkedin.com/in/andrea-r-31967494
+</a>
+</p>
+
+<p>Location: Colombia</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Andrea Ramirez | .NET Backend Developer</p>
+
+</footer>
+
 </body>
 </html>
